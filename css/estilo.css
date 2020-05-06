@@ -156,7 +156,33 @@ table#tablespec {
 table#tablespec td {
     border: 1px solid #606060;
     padding: 10px;
-    text-align: right;
-    vertical-align: top;
+    text-align: center;
+    vertical-align: middle;
 }
 
+table#tablespec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+}
+
+table#tablespec td.cd {
+    background-color: #cecece;
+    text-align: left;
+}
+
+table#tablespec caption {
+    color: #888888;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+table#tablespec caption span{
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
