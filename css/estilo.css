@@ -145,3 +145,18 @@ footer#rodape{
 footer#rodape p{
     text-align: center;
 }
+
+table#tablespec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tablespec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: right;
+    vertical-align: top;
+}
+
